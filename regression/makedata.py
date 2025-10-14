@@ -49,7 +49,7 @@ xread=in_binary("x.dat",1)
 yread=in_binary("y.dat",1)
 
 plt.plot(xread,yread,"bo")
-fout="sample.eps"
+fout="sample.png"
 print("plot "+ fout)
 plt.savefig(fout)
 plt.clf
